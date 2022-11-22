@@ -6,7 +6,7 @@ test('test generating a secure URL token a bunch of times and determine they hav
         $string = $generator->generate();
         expect($string)
             ->toBeString()
-            ->toHaveLength(28);
+            ->toHaveLength(27);
     }
 });
 

@@ -14,7 +14,7 @@ class Generator
 
     public function base64_url_encode( string $data ): string
     {
-        return strtr( base64_encode($data), '+/=', '-_,' );
+        return trim(strtr(base64_encode($data), '+/=', '._ '));
     }
 
     /**
