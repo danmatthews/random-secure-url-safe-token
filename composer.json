@@ -1,6 +1,6 @@
 {
     "name": "danmatthews/random-url-safe-token",
-    "description": "URL Safe Base64 tokens to be used as IDs in place of UUIDs.",
+    "description": "Random URL Safe Tokens",
     "keywords": [
         "danmatthews",
         "url-safe-base64-id"
